@@ -320,11 +320,11 @@ help_admin = telegraph.create_page(
 def bot_help(update, context):
     button = ButtonMaker()
     if config_dict['EMOJI_THEME']:
-        button.buildbutton("👤 User", f"https://telegra.ph/testenocturne")
-        button.buildbutton("🛡️ Admin", f"https://telegra.ph/testeziuatice")
+        button.buildbutton("👤 User", f"https://telegra.ph/OTRLeech-Help-02-08")
+        button.buildbutton("🛡️ Admin", f"https://telegra.ph/OTRLeech-Admin-Only-Help-02-08")
     else:
-        button.buildbutton("User", f"https://telegra.ph/testenocturne")
-        button.buildbutton("Admin", f"https://telegra.ph/testeziuatice")
+        button.buildbutton("User", f"https://telegra.ph/OTRLeech-Help-02-08")
+        button.buildbutton("Admin", f"https://telegra.ph/OTRLeech-Admin-Only-Help-02-08")
     sendMessage(help_string, context.bot, update.message, button.build_menu(2))
 
 
